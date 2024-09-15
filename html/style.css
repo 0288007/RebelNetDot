@@ -1,0 +1,134 @@
+* {
+    font-family: 'Verdana', sans-serif;
+}
+
+body {
+    background-image: url('1984.gif');
+	 background-size: cover;
+          background-repeat: no-repeat;
+	    margin: 0;
+}
+
+p {
+		color:#FFFFFF;
+	        font-size: 24px;
+	        -webkit-text-stroke-width: 1px;
+                -webkit-text-stroke-color: black;
+	         margin: 8px;
+}
+
+h1 {
+	        text-align: center;
+		position:relative;
+		color:#b5b7eb;
+                text-shadow: 2px 2px black, 1px 1px black;
+}
+
+
+button {
+	opacity: 0.75;
+    background-image: linear-gradient(135deg, #AFEEEE, #FFFFFF);	
+    color: #000000;
+    border-radius: 5px;
+    border-color: black;
+		padding: 3px 1%;
+		margin-bottom: 2px;
+}
+
+
+.flash {
+	opacity: 0.75;
+    background-image: linear-gradient(135deg, #AFEEEE, #FFFFFF);	
+    color: #000000;
+    border-radius: 5px;
+    border-color: black;
+		padding: 3px 1%;
+		margin-bottom: 2px;
+}
+
+.html {
+	opacity: 0.75;
+    background-image: linear-gradient(135deg, #AFEEEE, #FFFFFF);	
+    color: #000000;
+    border-radius: 5px;
+    border-color: black;
+		padding: 3px 1%;
+		margin-bottom: 2px;
+}
+
+.dos {
+	opacity: 0.75;
+    background-image: linear-gradient(135deg, #AFEEEE, #FFFFFF);	
+    color: #000000;
+    border-radius: 5px;
+    border-color: black;
+		padding: 3px 1%;
+		margin-bottom: 2px;
+}
+
+.button {
+	    cursor: pointer;
+}
+
+.quote {
+	text-align: center;
+}
+
+a:link {
+	color:#a0b4db;
+}
+
+a:visited {
+	color:#b5b7eb;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+	margin: 8px;
+}
+
+center {
+	margin: 8px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: linear-gradient(180deg, rgba(99, 102, 104, 0.9) 0%, rgba(69, 71, 71, 0.9) 50.52%, rgba(52, 52, 52, 0.9) 53.12%, rgba(0, 0, 0, 0.9) 100%);
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3), inset 0px 2px 1px rgba(255, 255, 255, 0.3), inset 0px -2px 1px rgba(0, 0, 0, 0.4);
+  top: 0;
+	
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: flex;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 25px;
+  gap: 20px;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.divider {
+		width:5px;
+		height:auto;
+		display:inline-block;
+}
+.divide {
+		margin-left:100px;
+}

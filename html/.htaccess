@@ -1,0 +1,11 @@
+DirectoryIndex /
+
+ErrorDocument 403 /403.html
+ErrorDocument 404 /404.html
+
+
+
+SetEnv TZ Australia/Canberra
+
+ServerSignature EMail
+SetEnv SERVER_ADMIN helpfuljacek@outlook.com
