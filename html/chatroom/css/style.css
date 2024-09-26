@@ -1,0 +1,95 @@
+body {
+	margin:0; 
+	padding: 0; 
+	font-family: 'Arial', sans-serif, arial; 
+	font-size: 14px; 
+	background: #FFFFFF; 
+	overflow: hidden;
+	align-items: left;
+  }
+	
+*{font-family: 'Arial', sans-serif, arial; font-size: 14px; color:#000; }
+.main {
+	max-width:1024px; 
+	width:100%; 
+	margin:auto;
+	}
+	
+.header {
+
+	}
+	
+.header h1{ 
+max-width:1024px; 
+width:100%; 
+margin:0 auto; 
+padding:8px 2px; 
+font-size: 20px; 
+color: #000; 
+font-weight: 300;
+margin-bottom: 2px;
+}
+
+.userscreen { margin: auto; margin-top: 24%}
+.input-user {
+  padding: 10px;
+  border: solid 2px #000000;
+  transition: border 0.3s;
+  width:250px;
+}
+.input-user:focus,
+.input-user.focus {
+  border: solid 2px #000000;
+}
+
+.btn {
+	background-color:#FFFFFF;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family: 'Arial', sans-serif, arial;
+	font-size:13px;
+	padding:6px 12px;
+	text-decoration:none;
+}
+.btn:hover {
+	background-color:#EEEEEE;
+	color:#000000;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.btn-user{padding:9px 30px; position: relative; top: 0px; font-size: 16px; font-weight: 300}
+
+#result{max-width:1024px; width:100%; padding:10px; background: #FFFFFF; max-height: 80%; overflow-y:auto; 	border:1px solid #000000; height: 80%}
+
+.chatcontrols{position: fixed; bottom: 0; width: 100%}
+.chatcontrols form{margin: 0}
+
+#chatbox 
+{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid black;
+    color: #FFFFFF;
+    height: 35px;
+    margin-top: 10px;
+	margin-bottom: 1em;
+    padding: 5px 10px;
+    width: 50%;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 300
+}
+#chatbox:focus{
+    background: none repeat scroll 0 0 white;
+    border-color: #000;
+    color: #FFFFFF;
+ 	content:"";
+}
+
+.btn-send{font-size: 26px; padding: 12px; font-weight: 300}
+.btn-clear{padding: 15px 25px; font-size: 20px; font-weight: 300}
+.logout{float: right; color: #000; text-decoration: none; font-size: 15px; border: 1px solid black; padding: 5px 5px;}
